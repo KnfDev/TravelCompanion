@@ -14,6 +14,7 @@ import useStyles from "./styles";
 const List = () => {
   const classes = useStyles();
   const [type, setType] = useState('restaurants')
+  const [rating, setRating] = useState('restaurants')
 
   return (
     <div className={classes.container}>
